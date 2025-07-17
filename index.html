@@ -418,37 +418,46 @@
         <div class="row">
             <div class="col-lg-10 m-auto">
                 <div class="testimonials owl-carousel">
-                    <?php
-                    $empresas = [
-                        [
-                            "titulo" => "Bermann, Santiago de Chile",
-                            "texto" => "Empresa chilena de tecnología logística con más de 40 años de experiencia en el mercado Latam Nos enfocamos en el cliente y ofrecemos plataformas SaaS, aplicaciones responsivas de desarrollo propio y nativo. Acompañamos a nuestros clientes en sus procesos de digitalización o transformación digital, gracias a la flexibilidad y escalabilidad de nuestras soluciones. Además, nuestros módulos independientes y complementarios nos permiten integrarnos con otros sistemas y ofrecer soluciones de punta a punta."
-                        ],
-                        [
-                            "titulo" => "Free Code, Venezuela - Guatemala",
-                            "texto" => "Empresa venezolana con extensión en Guatemala, en la cual se desarrollan diferentes sistemas de información y aplicaciones móviles destinadas a ser utilizadas en Guatemala. Su sistema principal es Chappsy, creado como ecommerce web y funcionando también en aplicación móvil."
-                        ],
-                        [
-                            "titulo" => "PlayBook, Venezuela",
-                            "texto" => "Es una página web desarrollada para funcionar como casa de apuestas de los juegos que son tradición en Venezuela. Actualmente está en proceso de desarrollo y expansión. También cuenta con una app, la cual se está desarrollando con flutter y será alimentada con una api rest desarrollada en Laravel."
-                        ]
-                    ];
+                    <div class="testimonial">
+                        <div class="testimonial-img animated fadeInLeft">
+                            <img src="assets/img/author/testimonial1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text animated fadeInDown">
+                            <img src="assets/img/icon/quote.png" alt="">
+                            <h4>Bermann, Santiago de Chile</h4>
+                            <p style="text-align: justify;">
+                                Empresa chilena de tecnología logística con más de 40 años de experiencia en el mercado Latam. Nos enfocamos en el cliente y ofrecemos plataformas SaaS, aplicaciones responsivas de desarrollo propio y nativo. Acompañamos a nuestros clientes en sus procesos de digitalización o transformación digital, gracias a la flexibilidad y escalabilidad de nuestras soluciones. Además, nuestros módulos independientes y complementarios nos permiten integrarnos con otros sistemas y ofrecer soluciones de punta a punta.
+                            </p>
+                        </div>
+                    </div>
 
-                    foreach ($empresas as $empresa) {
-                        echo '
-                        <div class="testimonial">
-                            <div class="testimonial-img animated fadeInLeft">
-                                <img src="assets/img/author/testimonial1.jpg" alt="">
-                            </div>
-                            <div class="testimonial-text animated fadeInDown">
-                                <img src="assets/img/icon/quote.png" alt="">
-                                <h4>' . $empresa["titulo"] . '</h4>
-                                <p style="text-align: justify;">' . $empresa["texto"] . '</p>
-                            </div>
-                        </div>';
-                    }
-                    ?>
+                    <div class="testimonial">
+                        <div class="testimonial-img animated fadeInLeft">
+                            <img src="assets/img/author/testimonial1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text animated fadeInDown">
+                            <img src="assets/img/icon/quote.png" alt="">
+                            <h4>Free Code, Venezuela - Guatemala</h4>
+                            <p style="text-align: justify;">
+                                Empresa venezolana con extensión en Guatemala, en la cual se desarrollan diferentes sistemas de información y aplicaciones móviles destinadas a ser utilizadas en Guatemala. Su sistema principal es Chappsy, creado como ecommerce web y funcionando también en aplicación móvil.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-img animated fadeInLeft">
+                            <img src="assets/img/author/testimonial1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text animated fadeInDown">
+                            <img src="assets/img/icon/quote.png" alt="">
+                            <h4>PlayBook, Venezuela</h4>
+                            <p style="text-align: justify;">
+                                Es una página web desarrollada para funcionar como casa de apuestas de los juegos que son tradición en Venezuela. Actualmente está en proceso de desarrollo y expansión. También cuenta con una app, la cual se está desarrollando con flutter y será alimentada con una api rest desarrollada en Laravel.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
